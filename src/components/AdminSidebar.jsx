@@ -1,7 +1,7 @@
 
 const AdminSidebar = () => {
   return (
-    <div>AdminSidebar</div>
+  <aside></aside>
   )
 }
 

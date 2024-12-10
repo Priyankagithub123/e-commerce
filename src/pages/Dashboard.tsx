@@ -1,7 +1,11 @@
 
+
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className="adminContainer">
+
+       <main>bhfhgj</main>
+    </div>
   )
 }
 
