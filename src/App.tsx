@@ -12,10 +12,10 @@ const App = () => {
     <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route path="/pages/Dashboard" element={<Dashboard />} />
-          <Route path="/pages/Customer" element={<Customer />} />
-          <Route path="/pages/Product" element={<Product />} />
-          <Route path="/pages/Transaction" element={<Transaction />} />
+          <Route path="/pages/dashboard" element={<Dashboard />} />
+          <Route path="/pages/customer" element={<Customer />} />
+          <Route path="/pages/product" element={<Product />} />
+          <Route path="/pages/transaction" element={<Transaction />} />
         </Routes>
       </Suspense>
     </Router>
